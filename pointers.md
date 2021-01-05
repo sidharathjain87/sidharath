@@ -93,16 +93,16 @@ Pointers in C are easy and fun to learn. Some C programming tasks are performed 
 As you know, every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator, which denotes an address in memory. Consider the following example, which prints the address of the variables defined −
 #include <stdio.h>
 
-int main () {
+    int main () {
 
-   int  var1;
-   char var2[10];
+    int  var1;
+    char var2[10];
 
-   printf("Address of var1 variable: %x\n", &var1  );
-   printf("Address of var2 variable: %x\n", &var2  );
+    printf("Address of var1 variable: %x\n", &var1  );
+    printf("Address of var2 variable: %x\n", &var2  );
 
-   return 0;
-}
+    return 0;
+    }
 
 When the above code is compiled and executed, it produces the following result −
 Address of var1 variable: bff5a400
