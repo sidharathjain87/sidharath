@@ -1,4 +1,4 @@
-C - Arrays
+# C - Arrays
 
 Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 
@@ -6,7 +6,7 @@ Instead of declaring individual variables, such as number0, number1, ..., and nu
 
 All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.
  
-Declaring Arrays
+# Declaring Arrays
 
 To declare an array in C, a programmer specifies the type of the elements and the number of elements required by an array as follows −
 type arrayName [ arraySize ];
@@ -42,7 +42,8 @@ double salary = balance[9];
 
 The above statement will take the 10th element from the array and assign the value to salary variable. The following example Shows how to use all the three above mentioned concepts viz. declaration, assignment, and accessing arrays −
 
-`#include <stdio.h>
+```
+#include <stdio.h>
  
 int main () {
 
@@ -60,7 +61,8 @@ int main () {
    }
  
    return 0;
-}`
+}
+```
 
 When the above code is compiled and executed, it produces the following result −
 Element[0] = 100
