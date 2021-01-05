@@ -178,18 +178,15 @@ To check for a null pointer, you can use an 'if' statement as follows −
 if(ptr)     /* succeeds if p is not null */
 if(!ptr)    /* succeeds if p is null */
 ```
-Pointers in Detail
+# Pointers in Detail
+
 Pointers have many but easy concepts and they are very important to C programming. The following important pointer concepts should be clear to any C programmer −
-Sr.No.	Concept & Description
-1.	Pointer arithmetic
-There are four arithmetic operators that can be used in pointers: ++, --, +, -
-1.	Array of pointers
-You can define arrays to hold a number of pointers.
-1.	Pointer to pointer
-C allows you to have pointer on a pointer and so on.
-1.	Passing pointers to functions in C
-Passing an argument by reference or by address enable the passed argument to be changed in the calling function by the called function.
-1.	Return pointer from functions in C
-C allows a function to return a pointer to the local variable, static variable, and dynamically allocated memory as well.
+|Sr.No.|	Concept| Description|
+|------|--------|------------|
+|1.	|Pointer arithmetic|There are four arithmetic operators that can be used in pointers: ++, --, +, -|
+|1.	|Array of pointers|You can define arrays to hold a number of pointers.|
+|1.	|Pointer to pointer|C allows you to have pointer on a pointer and so on.|
+|1.	|Passing pointers to functions in C|Passing an argument by reference or by address enable the passed argument to be changed in the calling function by the called function.|
+|1.	|Return pointer from functions in C|C allows a function to return a pointer to the local variable, static variable, and dynamically allocated memory as well.|
 
 
