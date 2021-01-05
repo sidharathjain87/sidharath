@@ -40,8 +40,10 @@ The actual data type of the value of all pointers, whether integer, float, chara
 
 There are a few important operations, which we will do with the help of pointers very frequently. 
 
-(a) We define a pointer variable, 
-(b) assign the address of a variable to a pointer and 
+(a) We define a pointer variable,
+
+(b) assign the address of a variable to a pointer and
+
 (c) finally access the value at the address available in the pointer variable. This is done by using unary operator * that returns the value of the variable located at the address specified by its operand. 
 
 The following example makes use of these operations −
