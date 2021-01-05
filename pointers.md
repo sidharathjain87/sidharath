@@ -2,7 +2,8 @@
 
 Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 
-Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index.
+Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable
+such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index.
 
 All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.
  
@@ -79,18 +80,16 @@ Element[9] = 109
 ```
 # Arrays in Detail
 Arrays are important to C and should need a lot more attention. The following important concepts related to array should be clear to a C programmer −
-Sr.No.	Concept & Description
-1	Multi-dimensional arrays
-C supports multidimensional arrays. The simplest form of the multidimensional array is the two-dimensional array.
-2	Passing arrays to functions
-You can pass to the function a pointer to an array by specifying the array's name without an index.
-3	Return array from a function
-C allows a function to return an array.
-4	Pointer to an array
-You can generate a pointer to the first element of an array by simply specifying the array name, without any index.
+|Sr.No.|	Concept and Description|
+|-----|-----|
+|1|	Multi-dimensional arrays C supports multidimensional arrays. The simplest form of the multidimensional array is the two-dimensional array.|
+|2|	Passing arrays to functions You can pass to the function a pointer to an array by specifying the array's name without an index.|
+|3|	Return array from a function C allows a function to return an array.|
+|4|	Pointer to an array You can generate a pointer to the first element of an array by simply specifying the array name, without any index.|
 
 # C - Pointers
-Pointers in C are easy and fun to learn. Some C programming tasks are performed more easily with pointers, and other tasks, such as dynamic memory allocation, cannot be performed without using pointers. So it becomes necessary to learn pointers to become a perfect C programmer. Let's start learning them in simple and easy steps.
+Pointers in C are easy and fun to learn. Some C programming tasks are performed more easily with pointers, and other tasks, such as dynamic memory allocation, cannot be performed without using pointers. So it becomes necessary to learn pointers to become a perfect C programmer. 
+Let's start learning them in simple and easy steps.
 As you know, every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator, which denotes an address in memory. Consider the following example, which prints the address of the variables defined −
   
     #include <stdio.h>
@@ -125,7 +124,13 @@ char   *ch     /* pointer to a character */
 ```
 The actual data type of the value of all pointers, whether integer, float, character, or otherwise, is the same, a long hexadecimal number that represents a memory address. The only difference between pointers of different data types is the data type of the variable or constant that the pointer points to.
 How to Use Pointers?
-There are a few important operations, which we will do with the help of pointers very frequently. (a) We define a pointer variable, (b) assign the address of a variable to a pointer and (c) finally access the value at the address available in the pointer variable. This is done by using unary operator * that returns the value of the variable located at the address specified by its operand. The following example makes use of these operations −
+There are a few important operations, which we will do with the help of pointers very frequently. 
+
+(a) We define a pointer variable, 
+(b) assign the address of a variable to a pointer and 
+(c) finally access the value at the address available in the pointer variable. This is done by using unary operator * that returns the value of the variable located at the address specified by its operand. 
+
+The following example makes use of these operations −
 
 ```
 #include <stdio.h>
@@ -184,9 +189,9 @@ Pointers have many but easy concepts and they are very important to C programmin
 |Sr.No.|	Concept| Description|
 |------|--------|------------|
 |1.	|Pointer arithmetic|There are four arithmetic operators that can be used in pointers: ++, --, +, -|
-|1.	|Array of pointers|You can define arrays to hold a number of pointers.|
-|1.	|Pointer to pointer|C allows you to have pointer on a pointer and so on.|
-|1.	|Passing pointers to functions in C|Passing an argument by reference or by address enable the passed argument to be changed in the calling function by the called function.|
-|1.	|Return pointer from functions in C|C allows a function to return a pointer to the local variable, static variable, and dynamically allocated memory as well.|
+|2.	|Array of pointers|You can define arrays to hold a number of pointers.|
+|3.	|Pointer to pointer|C allows you to have pointer on a pointer and so on.|
+|4.	|Passing pointers to functions in C|Passing an argument by reference or by address enable the passed argument to be changed in the calling function by the called function.|
+|5.	|Return pointer from functions in C|C allows a function to return a pointer to the local variable, static variable, and dynamically allocated memory as well.|
 
 
